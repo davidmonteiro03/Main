@@ -1,6 +1,4 @@
-SRC	= ./srcs/ft_memset.c
-
-SRC_TEST	= ./srcs/ft_memset.c
+SRC	= ./srcs/ft_strrchr.c ./srcs/ft_memset.c ./srcs/ft_bzero.c
 
 OBJS	= ${SRC:.c=.o}
 

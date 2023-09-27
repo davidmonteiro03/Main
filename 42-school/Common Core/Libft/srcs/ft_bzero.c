@@ -1,22 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/26 18:36:28 by Dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/27 21:47:13 by Dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/27 21:46:20 by Dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/27 21:50:16 by Dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "../includes/libft.h"
 
-# include <stdio.h>
-
-void	ft_bzero(void *s, size_t n);
-void	*ft_memset(void *s, int c, size_t n);
-char	*ft_strrchr(const char *s, int c);
-
-#endif
+void	ft_bzero(void *s, size_t n)
+{
+	printf("Hello ft_bzero\n");
+	printf("s: %p | n: %ld\n", s, n);
+}
