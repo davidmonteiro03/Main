@@ -22,6 +22,7 @@ all:	${NAME}
 ${NAME}:${OBJS}
 	${AR} ${NAME} ${OBJS}
 	${LIB} ${NAME}
+	find . -name "*.o" -type f -delete
 
 clean:
 	${RM} ${OBJS}
