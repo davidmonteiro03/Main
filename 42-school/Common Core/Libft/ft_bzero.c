@@ -6,13 +6,13 @@
 /*   By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 21:46:20 by Dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 10:42:28 by Dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/28 10:48:11 by Dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, unsigned int n)
 {
 	printf("Hello ft_bzero\n");
 	printf("s: %p | n: %ld\n", s, n);
