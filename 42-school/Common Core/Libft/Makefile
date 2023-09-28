@@ -6,7 +6,7 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/28 10:51:16 by dcaetano          #+#    #+#              #
-#    Updated: 2023/09/28 10:51:22 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/09/28 10:56:31 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,6 @@ all:	${NAME}
 ${NAME}:${OBJS}
 	${AR} ${NAME} ${OBJS}
 	${LIB} ${NAME}
-	find . -name "*.o" -type f -delete
 
 clean:
 	${RM} ${OBJS}
