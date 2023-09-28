@@ -6,11 +6,11 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/28 10:51:16 by dcaetano          #+#    #+#              #
-#    Updated: 2023/09/28 14:52:07 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/09/28 15:07:55 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC	= ft_strrchr.c ft_memset.c ft_bzero.c ft_memcpy.c
+SRC	= ft_strrchr.c ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c
 
 OBJS	= ${SRC:.c=.o}
 

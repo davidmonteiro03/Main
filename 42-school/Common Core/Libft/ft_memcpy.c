@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/28 14:49:57 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 15:04:04 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/28 15:13:20 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,6 @@ void	*ft_memcpy(void *dest, const void *src, unsigned int n)
 	aux_src = (unsigned char *)src;
 	while (n-- > 0)
 		*(aux_dest++) = *(aux_src++);
+	*aux_dest = '\0';
 	return (dest);
 }

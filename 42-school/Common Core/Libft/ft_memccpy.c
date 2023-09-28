@@ -1,25 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_memccpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/28 10:51:50 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 16:58:12 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/28 15:05:36 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/28 17:00:11 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stdlib.h>
-# include <unistd.h>
+void	*ft_memccpy(void *dest, const void *src, int c, unsigned int n)
+{
+	unsigned char		*aux_dest;
+	const unsigned char	*aux_src;
 
-void	*ft_memset(void *s, int c, unsigned int n);
-void	*ft_memcpy(void *dest, const void *src, unsigned int n);
-void	*ft_memccpy(void *dest, const void *src, int c, unsigned int n);
-void	ft_bzero(void *s, unsigned int n);
-char	*ft_strrchr(const char *s, int c);
-
-#endif
+	aux_dest = (unsigned char *)dest;
+	aux_src = (unsigned char *)src;
+	while (n-- > 0)
+	{
+		*(aux_dest++) = *(aux_src);
+		if (*aux_src++ == (unsigned char)c)
+			return ((void *)dest);
+	}
+	return (NULL);
+}
