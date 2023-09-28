@@ -6,11 +6,11 @@
 /*   By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 18:43:28 by Dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/27 21:50:44 by Dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/28 09:32:15 by Dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 #include <stdlib.h>
 #include <string.h>
 

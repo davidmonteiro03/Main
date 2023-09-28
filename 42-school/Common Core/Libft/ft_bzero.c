@@ -6,11 +6,11 @@
 /*   By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 21:46:20 by Dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/27 21:50:16 by Dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/28 09:32:14 by Dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
