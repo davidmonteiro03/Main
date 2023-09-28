@@ -1,21 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/28 10:51:50 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 14:51:38 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/28 14:49:57 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/28 15:04:04 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-void	*ft_memset(void *s, int c, unsigned int n);
-void	*ft_memcpy(void *dest, const void *src, unsigned int n);
-void	ft_bzero(void *s, unsigned int n);
-char	*ft_strrchr(const char *s, int c);
+void	*ft_memcpy(void *dest, const void *src, unsigned int n)
+{
+	unsigned char		*aux_dest;
+	const unsigned char	*aux_src;
 
-#endif
+	aux_dest = (unsigned char *)dest;
+	aux_src = (unsigned char *)src;
+	while (n-- > 0)
+		*(aux_dest++) = *(aux_src++);
+	return (dest);
+}
