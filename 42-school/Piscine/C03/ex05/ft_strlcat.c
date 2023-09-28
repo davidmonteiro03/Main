@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dcaetano <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 13:39:38 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/08/31 10:44:38 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/28 18:54:38 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	aux_size = 0;
 	while (dest[aux_size] != '\0')
 		aux_size++;
-	if (size > 0)
+	if (limit <= size)
 	{
 		i = 0;
 		while (i < size && src[i] != '\0')

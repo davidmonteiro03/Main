@@ -1,29 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memccpy.c                                       :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/28 15:05:36 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 17:00:11 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/28 18:55:19 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/28 19:59:54 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memccpy(void *dest, const void *src, int c, unsigned int n)
+size_t	ft_strlcat(char *dest, char *src, size_t size)
 {
-	unsigned char		*aux_dest;
-	const unsigned char	*aux_src;
+	size_t	limit;
+	size_t	i;
+	size_t	aux_size;
 
-	aux_dest = (unsigned char *)dest;
-	aux_src = (unsigned char *)src;
-	while (n-- > 0)
+	limit = 0;
+	while (src[limit] != '\0')
+		limit++;
+	aux_size = 0;
+	while (dest[aux_size] != '\0')
+		aux_size++;
+	if (limit <= size)
 	{
-		*(aux_dest++) = *(aux_src);
-		if (*aux_src++ == (unsigned char)c)
-			return ((void *)dest);
+		i = 0;
+		while (i < size && src[i] != '\0')
+		{
+			dest[aux_size + i] = src[i];
+			i++;
+		}
+		dest[aux_size + i] = '\0';
+		limit += i - 1;
 	}
-	return (NULL);
+	return (limit);
 }

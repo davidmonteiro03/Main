@@ -1,24 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/28 10:51:36 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 20:00:05 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/28 20:02:43 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/28 20:04:16 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+int	ft_strncmp(char *s1, char *s2, size_t n)
 {
-	unsigned char	*p;
 	size_t	i;
 
-	p = (unsigned char *)s;
-	i = 0;
-	while (i < n)
-		p[i++] = 0;
+	i = -1;
+	while (++i < n && (s1[i] != '\0' || s2[i] != '\0'))
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+	return (0);
 }
