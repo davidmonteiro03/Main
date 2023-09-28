@@ -1,8 +1,6 @@
-SRC	= ./srcs/ft_strrchr.c ./srcs/ft_memset.c ./srcs/ft_bzero.c
+SRC	= ft_strrchr.c ft_memset.c ft_bzero.c
 
 OBJS	= ${SRC:.c=.o}
-
-HEAD	= ./includes
 
 NAME	= libft.a
 
@@ -19,7 +17,7 @@ FLAGS	= -Wall -Wextra -Werror
 all:	${NAME}
 
 .c.o:
-	${CC} ${FLAGS} -c -I ${HEAD} $< -o ${<:.c=.o}
+	${CC} ${FLAGS} -c $< -o ${<:.c=.o}
 
 ${NAME}:${OBJS}
 	${AR} ${NAME} ${OBJS}
