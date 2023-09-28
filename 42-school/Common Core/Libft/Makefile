@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+         #
+#    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/09/28 10:46:32 by Dcaetano          #+#    #+#              #
-#    Updated: 2023/09/28 10:49:39 by Dcaetano         ###   ########.fr        #
+#    Created: 2023/09/28 10:51:16 by dcaetano          #+#    #+#              #
+#    Updated: 2023/09/28 10:51:22 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
