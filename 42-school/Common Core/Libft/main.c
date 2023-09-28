@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/28 10:51:44 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 11:00:58 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/28 11:15:50 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@ int	main(int ac, char **av)
 		printf("=======\n");
 		printf("STRRCHR\n\n");
 		printf("bgn: %s\n", av[1]);
+		printf("end: ");
 		if (ft_strrchr(av[1], av[2][0]))
-			printf("end: %s\n", ft_strrchr(av[1], av[2][0]));
-		else
-			printf("no data in ft_strrchr('%s', '%c')\n", av[1], av[2][0]);
+			printf("%s", ft_strrchr(av[1], av[2][0]));
+		printf("\n");
 		printf("\n=====\n");
 		printf("BZERO\n\n");
 		ft_bzero(av[1], atoi(av[2]));
