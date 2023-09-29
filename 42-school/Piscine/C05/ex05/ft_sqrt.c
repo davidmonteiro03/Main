@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dcaetano <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 18:38:43 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/09 12:43:13 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/29 14:16:45 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	ft_sqrt(int nb)
 		return (0);
 	return (k);
 }
-
+/*
 int	main(int ac, char **av)
 {
 	if (ac != 2)
@@ -40,3 +40,4 @@ int	main(int ac, char **av)
 		printf("%d", ft_sqrt(atoi(av[1])));
 	return (0);
 }
+*/

@@ -1,19 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list_find.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 19:38:43 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 21:37:50 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
+#include <stdlib.h>
 
-void	ft_putstr(char *str)
+t_list	*ft_list_find(t_list *begin_list, void *data_ref, int (*cmp)())
 {
-	while (*str)
-		write (1, str++, 1);
+	if (!begin_list)
+		return (NULL);
+	if (!((*cmp)(begin_list->data, data_ref)))
+		return (begin_list);
+	return (ft_list_find(begin_list->next, data_ref, cmp));
 }

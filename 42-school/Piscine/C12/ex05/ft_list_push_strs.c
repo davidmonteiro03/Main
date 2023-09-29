@@ -1,19 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list_push_strs.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 17:34:22 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 17:47:36 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
 
-void	ft_putstr(char *str)
+t_list	*ft_list_push_strs(int size, char **strs)
 {
-	while (*str)
-		write (1, str++, 1);
+	t_list	*aux;
+
+	if (size <= 0)
+		return (0);
+	aux = ft_create_elem((void *)strs[size - 1]);
+	aux->next = ft_list_push_strs(size - 1, strs);
+	return (aux);
 }

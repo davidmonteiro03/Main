@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dcaetano <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 11:01:58 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/08/31 13:09:10 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/29 10:58:49 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,22 @@
 
 int	ft_atoi(char *str)
 {
+	int	neg;
 	int	i;
 	int	num;
-	int	alg;
-	int	sinal;
 
 	i = 0;
+	neg = 1;
 	num = 0;
-	alg = 0;
-	sinal = 1;
-	while (str[i] != '\0')
-	{
-		if (str[i] == '-')
-			sinal = -sinal;
-		if (str[i] >= '0' && str[i] <= '9')
-		{
-			num *= 10;
-			num += str[i] - '0';
-			alg++;
-		}
-		else if (alg > 0)
-			break ;
+	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t' || \
+			str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
 		i++;
-	}
-	return (num * sinal);
+	while (str[i] == '-' || str[i] == '+')
+		if (str[i++] == '-')
+			neg *= -1;
+	while (str[i] >= '0' && str[i] <= '9')
+		num = num * 10 + (str[i++] - '0');
+	return (num * neg);
 }
 
 /*#include <stdio.h>

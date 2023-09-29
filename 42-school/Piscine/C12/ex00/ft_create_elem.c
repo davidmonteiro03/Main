@@ -1,19 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_create_elem.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 16:36:48 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 16:41:08 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
+#include <stdlib.h>
 
-void	ft_putstr(char *str)
+t_list	*ft_create_elem(void *data)
 {
-	while (*str)
-		write (1, str++, 1);
+	t_list	*aux;
+
+	aux = (t_list *)malloc(sizeof(t_list));
+	if (!aux)
+		return (NULL);
+	aux->data = data;
+	aux->next = NULL;
+	return (aux);
 }

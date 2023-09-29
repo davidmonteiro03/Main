@@ -1,19 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list_at.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 18:20:53 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 18:34:39 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
+#include <stdlib.h>
+#include <stdio.h>
 
-void	ft_putstr(char *str)
+t_list	*ft_list_at(t_list *begin_list, unsigned int nbr)
 {
-	while (*str)
-		write (1, str++, 1);
+	if (!begin_list)
+		return (NULL);
+	if (nbr == 0)
+		return (begin_list);
+	return (ft_list_at(begin_list->next, nbr - 1));
 }

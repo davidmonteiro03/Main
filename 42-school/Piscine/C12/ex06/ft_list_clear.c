@@ -1,19 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list_clear.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 17:53:14 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 18:12:37 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
+#include <stdlib.h>
 
-void	ft_putstr(char *str)
+void	ft_list_clear(t_list *begin_list, void (*free_fct)(void *))
 {
-	while (*str)
-		write (1, str++, 1);
+	if (begin_list->next)
+		ft_list_clear(begin_list->next, free_fct);
+	free_fct(begin_list->data);
+	free(begin_list);
 }

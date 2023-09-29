@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_prime.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dcaetano <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/01 08:09:10 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/01 08:14:32 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/29 14:08:22 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 
 int	ft_is_prime(int nb)
 {
@@ -31,10 +33,7 @@ int	ft_is_prime(int nb)
 		return (1);
 	return (0);
 }
-
-#include <stdio.h>
-#include <stdlib.h>
-
+/*
 int	main(int ac, char **av)
 {
 	if (ac != 2)
@@ -43,3 +42,4 @@ int	main(int ac, char **av)
 		printf("%d",ft_is_prime(atoi(av[1])));
 	return (0);
 }
+*/

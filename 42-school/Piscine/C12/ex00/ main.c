@@ -1,19 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*    main.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 21:54:34 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 21:55:31 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
+#include <stdlib.h>
 
-void	ft_putstr(char *str)
+int	main(void)
 {
-	while (*str)
-		write (1, str++, 1);
+	int		num;
+	t_list	*lst;
+
+	num = 42;
+	lst = NULL;
+	lst = ft_create_elem(&num);
+	free(lst);
 }

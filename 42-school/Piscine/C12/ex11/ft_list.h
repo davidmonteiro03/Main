@@ -1,19 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 16:34:48 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 16:41:48 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_LIST_H
+# define FT_LIST_H
 
-void	ft_putstr(char *str)
+typedef struct s_list
 {
-	while (*str)
-		write (1, str++, 1);
-}
+	void			*data;
+	struct s_list	*next;
+}t_list;
+
+t_list	*ft_create_elem(void *data);
+
+#endif

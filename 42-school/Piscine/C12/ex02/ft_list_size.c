@@ -1,19 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list_size.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 17:10:07 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 17:14:25 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
 
-void	ft_putstr(char *str)
+int	ft_list_size(t_list *begin_list)
 {
-	while (*str)
-		write (1, str++, 1);
+	t_list	*aux;
+	int		count;
+
+	aux = begin_list;
+	while (aux)
+	{
+		count++;
+		aux = aux->next;
+	}
+	return (count);
 }

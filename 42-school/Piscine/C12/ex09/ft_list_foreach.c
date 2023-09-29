@@ -1,19 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_list_foreach.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/27 14:42:23 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 10:43:54 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/29 18:59:37 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/29 19:17:34 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_list.h"
+#include <stdlib.h>
 
-void	ft_putstr(char *str)
+void	ft_list_foreach(t_list *begin_list, void (*f)(void *))
 {
-	while (*str)
-		write (1, str++, 1);
+	if (!begin_list)
+		return ;
+	(*f)(begin_list->data);
+	ft_list_foreach(begin_list->next, f);
 }

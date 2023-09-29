@@ -3,20 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/09 14:58:54 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/21 15:49:39 by Dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/29 15:00:12 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 //#include <stdio.h>
 
-int	ft_whtspc(char c)
+int	ft_whtspc(char *str, char c)
 {
-	if (c == ' ' || c == '\t' || c == '\n')
-		return (1);
+	while (*str)
+		if (*(str++) == c)
+			return (1);
 	return (0);
 }
 
@@ -34,23 +35,26 @@ char	*ft_strncpy(char *s1, char *s2, int n)
 	return (s1);
 }
 
-void	ft_words(char *str, int wc)
+int	ft_words(char *str, char *charset)
 {
 	int	i;
+	int	wc;
 
 	i = 0;
+	wc = 0;
 	while (str[i])
 	{
-		while (str[i] && ft_whtspc(str[i]) == 1)
+		while (str[i] && ft_whtspc(charset, str[i]) == 1)
 			i++;
 		if (str[i])
 			wc++;
-		while (str[i] && ft_whtspc(str[i]) == 0)
+		while (str[i] && ft_whtspc(charset, str[i]) == 0)
 			i++;
 	}
+	return (wc);
 }
 
-void	ft_break(char *str, char **out)
+void	ft_break(char *str, char **out, char *charset)
 {
 	int	i;
 	int	j;
@@ -61,10 +65,10 @@ void	ft_break(char *str, char **out)
 	k = 0;
 	while (str[i])
 	{
-		while (str[i] && ft_whtspc(str[i]) == 1)
+		while (str[i] && ft_whtspc(charset, str[i]) == 1)
 			i++;
 		j = i;
-		while (str[i] && ft_whtspc(str[i]) == 0)
+		while (str[i] && ft_whtspc(charset, str[i]) == 0)
 			i++;
 		if (i > j)
 		{
@@ -75,14 +79,14 @@ void	ft_break(char *str, char **out)
 	out[k] = NULL;
 }
 
-char	**ft_split(char *str)
+char	**ft_split(char *str, char *charset)
 {
 	char	**out;
 	int		wc;
 
-	ft_words(str, wc);
+	wc = ft_words(str, charset);
 	out = (char **)malloc(sizeof(char *) * (wc + 1));
-	ft_break(str, out);
+	ft_break(str, out, charset);
 	return (out);
 }
 /*
@@ -90,12 +94,15 @@ int	main(void)
 {
 	char	**mat;
 	char	*text;
+	char	*charset;
 	int		i;
 
-	text = "Ola dfhksdf mnsdfgs dgfd g dfg fd gd";
-	i = 0;
-	mat = ft_split(text);
-	while (i < g_count)
-		printf("%s\n", mat[i++]);
+	text = "Ola, dfhksdf, mnsdfgs, dgfd, g, dfg, fd, gd";
+	charset = ", ";
+	mat = ft_split(text, charset);
+	i = -1;
+	while (mat[++i])
+		printf("%s\n", mat[i]);
 	return (0);
-}*/
+}
+*/
