@@ -5,39 +5,30 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/09/28 10:51:16 by dcaetano          #+#    #+#              #
-#    Updated: 2023/09/30 17:37:56 by dcaetano         ###   ########.fr        #
+#    Created: 2023/09/30 17:41:07 by dcaetano          #+#    #+#              #
+#    Updated: 2023/09/30 17:48:24 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC	= \
-	ft_bzero.c ft_strchr.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strnstr.c \
-	ft_strrchr.c ft_strncmp.c ft_atoi.c
+SRC	= main.c
 
 OBJS	= ${SRC:.c=.o}
 
-INCLUDES = ./
-
-NAME	= libft.a
-
-AR	= ar rcs
-
-RM	= rm -f
-
-LIB	= ranlib
+NAME	= ft_display_file
 
 CC	= cc
+
+RM	= rm -f
 
 FLAGS	= -Wall -Wextra -Werror
 
 all:	${NAME}
 
 .c.o:
-	${CC} ${FLAGS} -c -I ${INCLUDES} $< -o ${<:.c=.o}
+	${CC} ${FLAGS} -c $< -o ${<:.c=.o}
 
 ${NAME}:${OBJS}
-	${AR} ${NAME} ${OBJS}
-	${LIB} ${NAME}
+	${CC} ${FLAGS} -o ${NAME} ${OBJS}
 
 clean:
 	${RM} ${OBJS}
@@ -45,6 +36,6 @@ clean:
 fclean:	clean
 	${RM} ${NAME}
 
-re:	fclean all
+re:	fclean clean
 
 .PHONY:	clean fclean
