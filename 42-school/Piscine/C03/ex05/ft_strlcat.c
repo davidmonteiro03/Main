@@ -6,36 +6,49 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 13:39:38 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/28 18:54:38 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/30 16:49:38 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+int	countarr(char *c)
+{
+	int	i;
+
+	i = 0;
+	while (c[i])
+	{
+		i++;
+	}
+	return (i);
+}
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
-	unsigned int	limit;
+	unsigned int	n_src;
+	unsigned int	n_dst;
+	unsigned int	res;
 	unsigned int	i;
-	unsigned int	aux_size;
 
-	limit = 0;
-	while (src[limit] != '\0')
-		limit++;
-	aux_size = 0;
-	while (dest[aux_size] != '\0')
-		aux_size++;
-	if (limit <= size)
+	n_dst = countarr(dest);
+	n_src = countarr(src);
+	res = 0;
+	i = 0;
+	if (size > n_dst)
 	{
-		i = 0;
-		while (i < size && src[i] != '\0')
-		{
-			dest[aux_size + i] = src[i];
-			i++;
-		}
-		dest[aux_size + i] = '\0';
-		limit += i - 1;
+		res = n_src + n_dst;
 	}
-	return (limit);
+	else
+	{
+		res = n_src + size;
+	}
+	while (src[i] != 0 && (n_dst + 1) < size)
+	{
+		dest[n_dst] = src[i];
+		n_dst++;
+		i++;
+	}
+	dest[n_dst] = '\0';
+	return (res);
 }
 
 /*#include <stdio.h>

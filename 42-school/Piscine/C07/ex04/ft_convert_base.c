@@ -6,12 +6,11 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 15:06:40 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 15:59:18 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/30 16:59:19 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "ft_convert_base2.c"
 
 int	ft_atoi_base(char *str, char *base);
 int	check(char *base);

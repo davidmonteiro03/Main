@@ -3,108 +3,89 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_memory.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Dcaetano <damonteiro12446@gmail.com>       +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/21 15:38:33 by Dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/21 15:45:40 by Dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/30 16:43:00 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/30 16:43:01 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c, int size)
+void	ft_putstr(char *str, unsigned int size)
 {
-	int	i;
+	unsigned int	i;
 
 	i = 0;
-	while (i < size)
+	while (str[i] && i < size)
 	{
-		write(1, &c, 1);
+		if (str[i] < 32 || str[i] > 126)
+			write(1, ".", 1);
+		else
+			write(1, &str[i], 1);
 		i++;
 	}
 }
 
-void	ft_get_hex(unsigned long long nb, int prev)
+void	printstr(char *str, unsigned int size)
 {
-	char	*base;
-
-	base = "0123456789abcdef";
-	if (nb < 16 && prev == 1)
-		ft_putchar('0', 1);
-	if (nb >= 16)
-	{
-		ft_get_hex(nb / 16, 0);
-		ft_get_hex(nb % 16, 0);
-	}
-	else
-	{
-		ft_putchar(base[nb], 1);
-	}
+	write(1, " ", 1);
+	ft_putstr(str, size);
+	write(1, "\n", 1);
 }
 
-void	ft_print_addr(unsigned long long addr)
+void	printhex(unsigned int i)
 {
-	unsigned long long	tmp;
-	int					i;
-
-	tmp = addr;
-	i = 1;
-	while (i++ < 15)
-	{
-		if (tmp < 16)
-			ft_putchar('0', 1);
-		tmp /= 16;
-	}
-	ft_get_hex(addr, 0);
+	write(1, &("0123456789abcdef"[i / 16]), 1);
+	write(1, &("0123456789abcdef"[i % 16]), 1);
 }
 
-void	ft_print_data(unsigned char *c, int size)
+void	getlocation(void *addr)
 {
-	int		i;
+	int				j;
+	long long int	i;
+	char			arr[17];
 
-	i = -1;
-	while (i++ < 16)
+	i = (long long int)addr;
+	j = 0;
+	while (j < 17)
 	{
-		if (i % 2 == 0)
-			ft_putchar(' ', 1);
-		if (i < size)
+		if (!i)
 		{
-			ft_get_hex((unsigned long long)*(c + i), 1);
+			while (j < 17)
+				arr[16 - j++] = '0';
 		}
-		else if (i != 16)
-		{
-			ft_putchar(' ', 2);
-		}
+		arr[16 - j++] = "0123456789abcdef"[i % 16];
+		i /= 16;
 	}
-	i = -1;
-	while (i++ < size - 1)
-	{
-		if (*(c + i) <= 31 || *(c + i) >= 127)
-			ft_putchar('.', 1);
-		else
-			ft_putchar(*(c + i), 1);
-	}
+	arr[j] = 0;
+	ft_putstr(&arr[0], 16);
 }
 
 void	*ft_print_memory(void *addr, unsigned int size)
 {
 	unsigned int	i;
-	unsigned char	*c;
-	unsigned int	sendsize;
+	int				j;
+	int				k;
 
 	i = 0;
-	c = addr;
-	while (i * 16 < size)
+	while (((char *)addr)[i] && i < size)
 	{
-		if (i < size / 16)
-			sendsize = 16;
-		else
-			sendsize = size % 16;
-		ft_print_addr((unsigned long long)c + (i * 16));
-		ft_putchar(':', 1);
-		ft_print_data(c + (i * 16), sendsize);
-		ft_putchar('\n', 1);
-		i++;
+		if (!(i % 16) || i == 0)
+			getlocation(&((char *)addr)[i]);
+		k = 0;
+		j = -1;
+		while (++j < 16)
+		{
+			if (!(j % 2))
+				write(1, " ", 1);
+			if (((char *)addr)[i + k])
+				printhex(((char *)addr)[i + k++]);
+			else
+				ft_putstr("  ", 2);
+		}
+		printstr(&((char *)addr)[i], 16);
+		i += 16;
 	}
 	return (addr);
 }

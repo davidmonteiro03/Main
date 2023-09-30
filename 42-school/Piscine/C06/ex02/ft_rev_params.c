@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_rev_params.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dcaetano <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/01 09:45:10 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/01 09:48:54 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/30 16:57:24 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,7 @@ int	main(int ac, char **av)
 			i++;
 		}
 	}
+	else
+		write (1, "\n", 1);
 	return (0);
 }
