@@ -1,39 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*    main.c                                            :+:      :+:    :+:   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/29 21:54:34 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/29 21:58:25 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/30 09:34:32 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/09/30 09:35:31 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_list.h"
-#include <stdlib.h>
-#define MAX 10
+#ifndef FT_LIST_H
+# define FT_LIST_H
 
-int	main(void)
+typedef struct s_list
 {
-	int		index;
-	int		num;
-	t_list	*list;
-	t_list	*temp;
+	void			*data;
+	struct s_list	*next;
+}t_list;
 
-	srand(time(NULL));
-	list = NULL;
-	index = -1;
-	while (++index < MAX)
-	{
-		num = rand() % MAX + 1;
-		ft_list_push_back(&list, (void *)&num);
-	}
-	while (list != NULL)
-	{
-		temp = list;
-		list = list->next;
-		free(temp);
-	}
-	return (0);
-}
+#endif

@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_list_last.c                                     :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/30 10:04:11 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/30 15:48:32 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/09/30 11:49:20 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
-/*#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #define MAX 20
 
@@ -41,52 +41,26 @@ void	ft_list_push_back(t_list **begin_list, void *data)
 		list->next = ft_create_elem(data);
 	}
 }
-*/
-t_list	*ft_list_last(t_list *begin_list)
-{
-	t_list	*aux;
 
-	if (!begin_list)
-		return (begin_list);
-	while (begin_list)
-	{
-		aux = begin_list;
-		begin_list = begin_list->next;
-	}
-	return (aux);
-}
-/*
-void	ft_display_list(t_list *head)
+void	ft_display_list(t_list *head, t_list *temp)
 {
-	t_list	*temp;
-
 	printf("\n");
 	while (head)
 	{
 		temp = head;
 		printf(" => %d\n", *(int *)temp->data);
 		head = head->next;
-	}
-	printf("\n");
-}
-
-void	ft_free_list(t_list *head)
-{
-	t_list	*temp;
-
-	while (head)
-	{
-		temp = head;
-		head = head->next;
 		free(temp->data);
 		free(temp);
 	}
+	printf("\n");
 }
 
 int	main(void)
 {
 	t_list	*lst;
 	t_list	*head;
+	t_list	*temp;
 	int		*num;
 	int		i;
 
@@ -104,8 +78,6 @@ int	main(void)
 	}
 	if (!lst || !head)
 		return (1);
-	ft_display_list(head);
-	printf("\tLast element: %d\n\n", *(int *)(ft_list_last(head)->data));
-	ft_free_list(head);
+	ft_display_list(head, temp);
 	return (0);
-}*/
+}
