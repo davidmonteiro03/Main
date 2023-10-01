@@ -6,11 +6,11 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/01 14:19:47 by dcaetano          #+#    #+#              #
-#    Updated: 2023/10/01 18:26:23 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/10/01 21:27:34 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC	= ft_putchar.c ft_putstr.c ft_read_from_stdin.c
+SRC	= ft_create_elem.c ft_exec_create_elem.c
 
 SRCS	= ${addprefix ./srcs/, ${SRC}}
 

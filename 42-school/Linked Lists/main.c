@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/01 15:27:05 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/01 15:27:45 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/10/01 14:32:15 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/10/01 21:21:27 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_main.h"
+#include "includes/ft_list.h"
 
-void	ft_putstr(char *str)
+int	main(void)
 {
-	while (*str)
-		write (1, str++, 1);
+	ft_exec_create_elem(&ft_create_elem);
+	return (0);
 }

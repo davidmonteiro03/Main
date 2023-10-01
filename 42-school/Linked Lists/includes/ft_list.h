@@ -1,18 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/01 14:30:45 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/01 14:45:58 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/10/01 14:46:07 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/10/01 21:28:16 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_main.h"
+#ifndef FT_LIST_H
+# define FT_LIST_H
 
-void	ft_putchar(char c)
+# include <stdio.h>
+# include <stdlib.h>
+
+typedef struct s_list
 {
-	write (1, &c, 1);
-}
+	void			*data;
+	struct s_list	*next;
+}t_list;
+
+t_list	*ft_create_elem(void *data);
+void	ft_exec_create_elem(t_list *(*create_elem)(void *));
+
+#endif
