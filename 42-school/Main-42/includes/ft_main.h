@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 14:46:07 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/01 16:18:34 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/10/01 18:13:44 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define FT_MAIN_H
 
 # include <unistd.h>
-# include <stdio.h>
 # include <stdlib.h>
 
 void	ft_putchar(char c);

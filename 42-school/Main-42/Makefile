@@ -6,7 +6,7 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/01 14:19:47 by dcaetano          #+#    #+#              #
-#    Updated: 2023/10/01 17:24:15 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/10/01 18:26:23 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ SRCS	= ${addprefix ./srcs/, ${SRC}}
 
 OBJS	= ${SRCS:.c=.o}
 
-INCLUDES	= ./includes
+INCLUDES	= ./includes/
 
 NAME	= libft
 
@@ -34,23 +34,20 @@ NAME_EXEC	= main
 
 SRCS_EXEC	= main.c
 
-OBJS_EXEC	= ${SRCS_EXEC:.c=.o}
-
 all:	${NAME} ${NAME_EXEC}
 
 .c.o:
-	${CC} ${FLAGS} -c -I ${INCLUDES} $< -o ${<:.c=.o}
+	${CC} ${FLAGS} -I ${INCLUDES} -c $< -o ${<:.c=.o}
 
 ${NAME}:${OBJS}
 	${AR} ${NAME} ${OBJS}
 	${LIB} ${NAME}
 
-${NAME_EXEC}:${OBJS_EXEC} ${NAME}
-	${CC} ${FLAGS} ${OBJS_EXEC} -o ${NAME_EXEC} -L. ${NAME}
+${NAME_EXEC}:${NAME}
+	${CC} ${FLAGS} ${SRCS_EXEC} ${NAME} -o ${NAME_EXEC}
 
 clean:
 	${RM} ${OBJS}
-	${RM} ${OBJS_EXEC}
 
 fclean:	clean
 	${RM} ${NAME}
