@@ -1,22 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_list.h                                          :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/30 09:34:32 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/09/30 09:35:31 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/10/01 14:32:15 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/10/01 15:42:45 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_LIST_H
-# define FT_LIST_H
+#include "includes/ft_main.h"
 
-typedef struct s_list
+int	main(void)
 {
-	void			*data;
-	struct s_list	*next;
-}t_list;
-
-#endif
+	ft_read_from_stdin();
+	return (0);
+}

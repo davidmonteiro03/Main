@@ -6,7 +6,8 @@
 	"unistd.h": "c",
 	"ft_ex04.h": "c",
 	"stdio.h": "c",
-	"ft_list.h": "c"
+	"ft_list.h": "c",
+	"ft_main.h": "c"
 },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
