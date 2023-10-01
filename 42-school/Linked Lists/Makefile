@@ -6,7 +6,7 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/01 14:19:47 by dcaetano          #+#    #+#              #
-#    Updated: 2023/10/01 21:31:50 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/10/01 21:57:54 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,8 @@ NAME_EXEC	= main
 
 SRCS_EXEC	= main.c
 
+OBJS_EXEC	= ${SRCS_EXEC:.c=.o}
+
 all:	${NAME} ${NAME_EXEC}
 
 .c.o:
@@ -43,8 +45,8 @@ ${NAME}:${OBJS}
 	${AR} ${NAME} ${OBJS}
 	${LIB} ${NAME}
 
-${NAME_EXEC}:${NAME}
-	${CC} ${FLAGS} ${SRCS_EXEC} ${NAME} -o ${NAME_EXEC}
+${NAME_EXEC}:${OBJS_EXEC} ${NAME}
+	${CC} ${FLAGS} ${OBJS_EXEC} -o ${NAME_EXEC} -L. ${NAME}
 
 clean:
 	${RM} ${OBJS}
