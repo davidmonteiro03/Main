@@ -6,7 +6,7 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/01 14:19:47 by dcaetano          #+#    #+#              #
-#    Updated: 2023/10/01 21:57:54 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/10/01 21:59:02 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,6 +50,7 @@ ${NAME_EXEC}:${OBJS_EXEC} ${NAME}
 
 clean:
 	${RM} ${OBJS}
+	${RM} ${OBJS_EXEC}
 
 fclean:	clean
 	${RM} ${NAME}
