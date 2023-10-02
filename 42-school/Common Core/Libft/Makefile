@@ -6,11 +6,11 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/02 13:06:53 by dcaetano          #+#    #+#              #
-#    Updated: 2023/10/02 13:41:24 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/10/02 14:42:29 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS	= ft_isalpha.c ft_isdigit.c
+SRCS	= ft_isalpha.c ft_isdigit.c ft_isalnum.c
 
 OBJS	= ${SRCS:.c=.o}
 
