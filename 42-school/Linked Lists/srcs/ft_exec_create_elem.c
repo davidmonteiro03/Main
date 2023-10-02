@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 21:19:38 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/02 13:00:41 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/10/02 13:03:27 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void	ft_exec_create_elem(void)
 {
 	t_list	*list;
 	int		*num;
+
 	printf("\n==> ft_create_elem function\n");
 	num = (int *)malloc(sizeof(int));
 	if (!num)
