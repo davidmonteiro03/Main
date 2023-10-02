@@ -6,17 +6,16 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 21:19:38 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/01 21:56:12 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/10/02 13:00:41 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_list.h"
+#include "../includes/ft_list.h"
 
 void	ft_exec_create_elem(void)
 {
 	t_list	*list;
 	int		*num;
-
 	printf("\n==> ft_create_elem function\n");
 	num = (int *)malloc(sizeof(int));
 	if (!num)

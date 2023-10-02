@@ -6,11 +6,11 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 21:25:06 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/01 21:26:36 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/10/02 12:58:37 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_list.h"
+#include "../includes/ft_list.h"
 
 t_list	*ft_create_elem(void *data)
 {
