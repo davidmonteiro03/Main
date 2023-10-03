@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 21:16:07 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/03 21:25:44 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/10/03 23:35:11 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	{
 		temp = (*lst)->next;
 		ft_lstdelone(*lst, del);
-		*lst = temp;
+		(*lst) = temp;
 	}
 }
