@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 18:44:45 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/03 19:17:26 by dcaetano         ###   ########.fr       */
+/*   Updated: 2023/10/05 18:21:58 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,19 +42,16 @@ char	*ft_itoa(int n)
 	char			*x;
 	long int		len;
 	unsigned int	number;
-	int				sign;
 
-	sign = 1;
 	len = ft_len(n);
 	x = (char *)malloc(sizeof(char) * (len + 1));
-	if (!(x))
+	if (!x)
 		return (NULL);
 	x[len--] = '\0';
 	if (n == 0)
 		x[0] = '0';
 	if (n < 0)
 	{
-		sign *= -1;
 		number = n * -1;
 		x[0] = '-';
 	}

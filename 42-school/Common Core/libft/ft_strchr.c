@@ -1,31 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 09:34:35 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/03 13:08:13 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/10/03 11:08:13 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/10/05 17:26:07 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+char	*ft_strchr(const char *s, int c)
 {
-	unsigned char	*aux_src;
-	unsigned char	*aux_dest;
-	size_t			i;
-
-	aux_src = (unsigned char *)src;
-	aux_dest = (unsigned char *)dest;
-	i = -1;
-	if (aux_dest > aux_src)
-		while (n-- > 0)
-			aux_dest[n] = aux_src[n];
-	else
-		while (++i < n)
-			aux_dest[i] = aux_src[i];
-	return (dest);
+	while (*s)
+	{
+		if ((unsigned char)*s == (unsigned char)c)
+			return ((char *)s);
+		s++;
+	}
+	if ((unsigned char)*s == (unsigned char)c)
+		return ((char *)s);
+	return (NULL);
 }

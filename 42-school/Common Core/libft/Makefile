@@ -6,7 +6,7 @@
 #    By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/02 13:06:53 by dcaetano          #+#    #+#              #
-#    Updated: 2023/10/03 23:12:36 by dcaetano         ###   ########.fr        #
+#    Updated: 2023/10/05 20:06:11 by dcaetano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,8 +28,6 @@ OBJS_BONUS	= ${SRCS_BONUS:.c=.o}
 
 NAME	= libft.a
 
-NAME_BONUS = bonus.a
-
 AR	= ar rcs
 
 LIB	= ranlib
@@ -49,18 +47,19 @@ ${NAME}:${OBJS}
 	${AR} ${NAME} ${OBJS}
 	${LIB} ${NAME}
 
-${NAME_BONUS}:${OBJS_BONUS}
-		${AR} ${NAME_BONUS} ${OBJS_BONUS}
-		${LIB} ${NAME_BONUS}
+bonus:${OBJS} ${OBJS_BONUS}
+	${AR} ${NAME} ${OBJS} ${OBJS_BONUS}
+	${LIB} ${NAME}
 
-bonus:	${NAME_BONUS}
+so:
+	${CC} -nostartfiles -fPIC ${FLAGS} ${SRCS} ${SRCS_BONUS}
+	gcc -nostartfiles -shared -o libft.so ${OBJS} ${OBJS_BONUS}
 
 clean:
 	${RM} ${OBJS} ${OBJS_BONUS}
 
 fclean:	clean
 	${RM} ${NAME}
-	${RM} ${NAME_BONUS}
 
 re:	fclean all
 

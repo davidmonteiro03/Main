@@ -1,28 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strmapi.c                                       :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 19:19:42 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/03 19:28:30 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/10/03 09:14:07 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/10/05 15:54:34 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	char			*str;
-	unsigned int	i;
+	size_t				i;
+	unsigned char		*aux_dest;
+	const unsigned char	*aux_src;
 
-	str = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1));
-	if (!str)
+	if (!dest && !src)
 		return (NULL);
+	aux_dest = (unsigned char *)dest;
+	aux_src = (unsigned char *)src;
 	i = -1;
-	while (++i < ft_strlen(s))
-		str[i] = (*f)(i, (char)s[i]);
-	str[i] = '\0';
-	return (str);
+	while (++i < n)
+		aux_dest[i] = aux_src[i];
+	return (dest);
 }

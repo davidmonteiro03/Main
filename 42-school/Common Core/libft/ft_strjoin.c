@@ -1,27 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 09:14:07 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/03 12:32:48 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/10/03 17:28:18 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/10/05 18:03:44 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t				i;
-	unsigned char		*aux_dest;
-	const unsigned char	*aux_src;
+	size_t	i;
+	size_t	j;
+	size_t	len;
+	char	*final_str;
 
-	aux_dest = (unsigned char *)dest;
-	aux_src = (unsigned char *)src;
+	if (!s1 || !s2)
+		return (NULL);
+	len = ft_strlen(s1) + ft_strlen(s2);
+	final_str = (char *)malloc(sizeof(char) * (len + 1));
+	if (!final_str)
+		return (NULL);
+	j = 0;
 	i = -1;
-	while (++i < n)
-		aux_dest[i] = aux_src[i];
-	return (dest);
+	while (s1[++i])
+		final_str[j++] = (char)s1[i];
+	i = -1;
+	while (s2[++i])
+		final_str[j++] = (char)s2[i];
+	final_str[j] = '\0';
+	return (final_str);
 }
