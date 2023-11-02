@@ -1,29 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   formula_resolvente.c                               :+:      :+:    :+:   */
+/*   CPAS_junior2007-F9.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 10:02:19 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/11/02 11:33:49 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/09/14 21:15:22 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/11/02 11:28:57 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <math.h>
+
+int	josephus(int n, int k)
+{
+	if (n == 1)
+		return (1);
+	return ((josephus(n - 1, k) + k - 1) % n + 1);
+}
 
 int	main(void)
 {
-	double	a;
-	double	b;
-	double	c;
-	double	x1;
-	double	x2;
+	int	n;
+	int	k;
+	int	survive;
 
-	scanf("%lf %lf %lf", &a, &b, &c);
-	x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
-	x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
-	printf("%.2lf %.2lf", x2, x1);
+	scanf("%d", &n);
+	scanf("%d", &k);
+	survive = josephus(n, k);
+	printf("%d\n", survive);
 	return (0);
 }
+

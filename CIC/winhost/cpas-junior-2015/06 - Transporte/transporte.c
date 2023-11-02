@@ -1,29 +1,53 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   formula_resolvente.c                               :+:      :+:    :+:   */
+/*   transporte.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 10:02:19 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/11/02 11:33:49 by dcaetano         ###   ########.fr       */
+/*   Created: 2023/11/02 11:02:03 by dcaetano          #+#    #+#             */
+/*   Updated: 2023/11/02 11:02:03 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <math.h>
+
+int	res(int a, int b)
+{
+	int	c;
+	int	co;
+	int	s;
+
+	c = 0;
+	co = 0;
+	while (a > 0 || b > 0)
+	{
+		s = (a % 10) + (b % 10) + c;
+		if (s >= 10)
+		{
+			c = 1;
+			co++;
+		}
+		else
+			c = 0;
+		a /= 10;
+		b /= 10;
+	}
+
+	return co;
+}
 
 int	main(void)
 {
-	double	a;
-	double	b;
-	double	c;
-	double	x1;
-	double	x2;
+	int	a;
+	int	b;
 
-	scanf("%lf %lf %lf", &a, &b, &c);
-	x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
-	x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
-	printf("%.2lf %.2lf", x2, x1);
+	while (1)
+	{
+		scanf("%d %d", &a, &b);
+		if (a == 0 && b == 0)
+			break ;
+		printf("%d\n", res(a, b));
+	}
 	return (0);
 }
