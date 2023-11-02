@@ -1,14 +1,14 @@
 {
   "files.associations": {
-	"stdlib.h": "c",
-	"string.h": "c",
-	"libft.h": "c",
-	"unistd.h": "c",
-	"ft_ex04.h": "c",
-	"stdio.h": "c",
-	"ft_list.h": "c",
-	"ft_main.h": "c"
-},
+    "stdlib.h": "c",
+    "string.h": "c",
+    "libft.h": "c",
+    "unistd.h": "c",
+    "ft_ex04.h": "c",
+    "stdio.h": "c",
+    "ft_list.h": "c",
+    "ft_main.h": "c"
+  },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -65,6 +65,6 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-"C_Cpp_Runner.msvcSecureNoWarnings": false,
-"C_Cpp.errorSquiggles": "enabled"
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "C_Cpp.errorSquiggles": "enabled"
 }
