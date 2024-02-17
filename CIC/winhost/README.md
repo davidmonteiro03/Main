@@ -64,6 +64,12 @@
     CPAS competitions.
 </p>
 
+## Testing problems
+
+<p>
+    Problems that might come up in an assessment test.
+</p>
+
 # More detailed information
 
 <p>
@@ -75,12 +81,24 @@
 <table>
     <thead>
         <tr>
-            <th>TEST TH</th>
+            <th>LEVEL</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>TEST TD</td>
+            <td>Level 1</td>
+        </tr>
+        <tr>
+            <td>Level 2</td>
+        </tr>
+        <tr>
+            <td>Level 3</td>
+        </tr>
+        <tr>
+            <td>Level 4</td>
+        </tr>
+        <tr>
+            <td>Level 5</td>
         </tr>
     </tbody>
 </table>
