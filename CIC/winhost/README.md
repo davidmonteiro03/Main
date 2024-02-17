@@ -188,7 +188,7 @@
 			<tr>
 				<td>CPAS Junior 2008</td>
 				<td>10</td>
-				<td>10</td>
+				<td>9</td>
 				<td>10</td>
 				<td>10</td>
 				<td>800</td>
