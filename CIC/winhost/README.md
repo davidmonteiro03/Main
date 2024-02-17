@@ -70,6 +70,12 @@
     Problems that might come up in an assessment test.
 </p>
 
+## Extra
+
+<p>
+    Just a few extra problems.
+</p>
+
 # More detailed information
 
 <p>
