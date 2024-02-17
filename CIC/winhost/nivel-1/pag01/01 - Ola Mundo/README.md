@@ -7,6 +7,4 @@
 
 ## Input:
 
-<code>
-	There is no input
-</code>
+<code>There is no input</code>
