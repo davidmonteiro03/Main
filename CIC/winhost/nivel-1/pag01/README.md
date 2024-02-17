@@ -61,6 +61,13 @@
 				<td>yes</td>
 				<td>yes</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/08%20-%20M%C3%A9dia%20aritm%C3%A9tica%20de%203%20n%C3%BAmeros">Arithmetic mean of 3 numbers</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
