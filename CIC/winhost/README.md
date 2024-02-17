@@ -67,7 +67,7 @@
 ## CPAS 2006 - Training
 
 <p>
-    Problems training for the CPAS-2006.
+    Problems training for the CPAS 2006.
 </p>
 
 ## Testing problems
