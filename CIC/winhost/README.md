@@ -193,7 +193,7 @@
 				<td>10</td>
 				<td>800</td>
 				<td>1000</td>
-				<td>100%</td>
+				<td>90%</td>
 			</tr>
 		</tbody>
 	</table>
