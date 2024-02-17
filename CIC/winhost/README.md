@@ -295,6 +295,16 @@
 				<td>2700</td>
 				<td>58.33%</td>
 			</tr>
+			<tr>
+				<td>CPAS 2005</td>
+				<td>8</td>
+				<td>8</td>
+				<td>10</td>
+				<td>10</td>
+				<td>800</td>
+				<td>1000</td>
+				<td>80%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
