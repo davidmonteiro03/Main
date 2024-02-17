@@ -9,4 +9,7 @@
     Solve the exercises on this platform and, in the future, you'll be able to develop complex programs such as CODEin!<br>
     To use the platform, follow these steps:<br>
     - Register using the «Inscrições\Do Colégio» function;
+    - Log in to the platform with your (school) username and password;
+    - Find a problem and submit it «Concurso\Problemas»;
+    - When you solve a problem correctly you are awarded points;
 </p>
