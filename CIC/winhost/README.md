@@ -94,6 +94,7 @@
     <thead>
         <tr>
             <th>LEVEL</th>
+            <th>PROGRESS</th>
         </tr>
     </thead>
     <tbody>
@@ -113,7 +114,46 @@
             <td>Level 5</td>
         </tr>
         <tr>
+            <td>Extra</td>
+        </tr>
+        <tr>
             <td>Testing problems</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2007</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2008</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2009</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2010</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2012</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2013</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2014</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2015</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2016</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2017</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2018</td>
+        </tr>
+        <tr>
+            <td>CPAS Junior 2019</td>
         </tr>
     </tbody>
 </table>
