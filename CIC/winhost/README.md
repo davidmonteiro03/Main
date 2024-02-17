@@ -355,6 +355,16 @@
 				<td>1000</td>
 				<td>50%</td>
 			</tr>
+			<tr>
+				<td>CPAS 2011</td>
+				<td>0</td>
+				<td>0</td>
+				<td>10</td>
+				<td>10</td>
+				<td>0</td>
+				<td>1000</td>
+				<td>0%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
