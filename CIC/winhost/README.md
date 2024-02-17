@@ -106,5 +106,8 @@
         <tr>
             <td>Level 5</td>
         </tr>
+        <tr>
+            <td>Testing problems</td>
+        </tr>
     </tbody>
 </table>
