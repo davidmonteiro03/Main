@@ -205,6 +205,16 @@
 				<td>1000</td>
 				<td>100%</td>
 			</tr>
+			<tr>
+				<td>CPAS Junior 2010</td>
+				<td>7</td>
+				<td>7</td>
+				<td>8</td>
+				<td>8</td>
+				<td>780</td>
+				<td>800</td>
+				<td>100%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
