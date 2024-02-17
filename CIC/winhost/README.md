@@ -245,6 +245,16 @@
 				<td>1000</td>
 				<td>60%</td>
 			</tr>
+			<tr>
+				<td>CPAS Junior 2015</td>
+				<td>7</td>
+				<td>7</td>
+				<td>10</td>
+				<td>10</td>
+				<td>690</td>
+				<td>1000</td>
+				<td>70%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
