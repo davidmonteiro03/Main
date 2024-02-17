@@ -95,29 +95,53 @@
 		<thead>
 			<tr>
 				<th>LEVEL</th>
+				<th>TRIED</th>
+				<th>SOLVED</th>
+				<th>EXERCISES TO SUBMIT</th>
+				<th>TOTAL OF EXERCISES</th>
 				<th>PROGRESS</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>Level 1</td>
-				<td>44/44</td>
+				<td>44</td>
+				<td>44</td>
+				<td>44</td>
+				<td>45</td>
+				<td>100%</td>
 			</tr>
 			<tr>
 				<td>Level 2</td>
-				<td>17/17</td>
+				<td>17</td>
+				<td>17</td>
+				<td>17</td>
+				<td>17</td>
+				<td>100%</td>
 			</tr>
 			<tr>
 				<td>Level 3</td>
-				<td>20/20</td>
+				<td>20</td>
+				<td>20</td>
+				<td>20</td>
+				<td>20</td>
+				<td>100%</td>
 			</tr>
 			<tr>
 				<td>Level 4</td>
-				<td>39/39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>100%</td>
 			</tr>
 			<tr>
 				<td>Level 5</td>
-				<td>44/44</td>
+				<td>18</td>
+				<td>18</td>
+				<td>18</td>
+				<td>18</td>
+				<td>100%</td>
 			</tr>
 			<tr>
 				<td>Extra</td>
