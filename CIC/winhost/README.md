@@ -52,16 +52,16 @@
 	Strings (string handling functions).
 </p>
 
-## Extra
-
-<p>
-	Just a few extra problems.
-</p>
-
 ## Testing problems
 
 <p>
 	Problems that might come up in an assessment test.
+</p>
+
+## Extra
+
+<p>
+	Just a few extra problems.
 </p>
 
 ## CPAS Junior 2007, CPAS Junior 2008, ...
@@ -99,6 +99,8 @@
 				<th>SOLVED</th>
 				<th>EXERCISES TO SUBMIT</th>
 				<th>TOTAL OF EXERCISES</th>
+				<th>EARNED POINTS</th>
+				<th>TOTAL OF POSSIBLE POINTS</th>
 				<th>PROGRESS</th>
 			</tr>
 		</thead>
@@ -109,99 +111,9 @@
 				<td>44</td>
 				<td>44</td>
 				<td>45</td>
+				<td>4390</td>
+				<td>4400</td>
 				<td>100%</td>
-			</tr>
-			<tr>
-				<td>Level 2</td>
-				<td>17</td>
-				<td>17</td>
-				<td>17</td>
-				<td>17</td>
-				<td>100%</td>
-			</tr>
-			<tr>
-				<td>Level 3</td>
-				<td>20</td>
-				<td>20</td>
-				<td>20</td>
-				<td>20</td>
-				<td>100%</td>
-			</tr>
-			<tr>
-				<td>Level 4</td>
-				<td>39</td>
-				<td>39</td>
-				<td>39</td>
-				<td>39</td>
-				<td>100%</td>
-			</tr>
-			<tr>
-				<td>Level 5</td>
-				<td>18</td>
-				<td>18</td>
-				<td>18</td>
-				<td>18</td>
-				<td>100%</td>
-			</tr>
-			<tr>
-				<td>Extra</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>Testing problems</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2007</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2008</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2009</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2010</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2012</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2013</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2014</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2015</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2016</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2017</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2018</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS Junior 2019</td>
-				<td>44/44</td>
-			</tr>
-			<tr>
-				<td>CPAS 2005</td>
-				<td>44/44</td>
 			</tr>
 		</tbody>
 	</table>
