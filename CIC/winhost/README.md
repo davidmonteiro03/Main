@@ -75,12 +75,12 @@
 <table>
     <thead>
         <tr>
-            <td></td>
+            <th>TEST TH</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
+            <td>TEST TD</td>
         </tr>
     </tbody>
 </table>
