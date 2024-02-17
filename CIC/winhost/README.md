@@ -275,6 +275,16 @@
 				<td>1000</td>
 				<td>100%</td>
 			</tr>
+			<tr>
+				<td>CPAS Junior 2018</td>
+				<td>6</td>
+				<td>6</td>
+				<td>10</td>
+				<td>10</td>
+				<td>600</td>
+				<td>1000</td>
+				<td>60%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
