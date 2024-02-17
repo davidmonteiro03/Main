@@ -1,4 +1,4 @@
-# CODEin-IP
+# Presentation
 
 ## Platform to support the teaching of programming
 
