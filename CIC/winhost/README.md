@@ -285,6 +285,16 @@
 				<td>1000</td>
 				<td>60%</td>
 			</tr>
+			<tr>
+				<td>CPAS Junior 2019</td>
+				<td>7</td>
+				<td>7</td>
+				<td>12</td>
+				<td>12</td>
+				<td>2200</td>
+				<td>2700</td>
+				<td>58.33%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
