@@ -19,3 +19,11 @@
     - Your entry must be approved by your teacher;<br>
     - Only submit your solution after testing it, as incorrect submissions will be penalized.
 </p>
+
+# Levels
+
+## Level 1
+
+<p>
+    Sequential structures (input and output, elementary data types, assignments, calculation operators, mathematical functions and arithmetic expressions).
+</p>
