@@ -104,7 +104,9 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>Level 1</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1">Level 1</a>
+				</td>
 				<td>44</td>
 				<td>44</td>
 				<td>44</td>
@@ -112,7 +114,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>Level 2</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-2">Level 2</a>
+				</td>
 				<td>17</td>
 				<td>17</td>
 				<td>17</td>
@@ -120,7 +124,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>Level 3</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-3">Level 3</a>
+				</td>
 				<td>20</td>
 				<td>20</td>
 				<td>20</td>
@@ -128,7 +134,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>Level 4</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-4">Level 4</a>
+				</td>
 				<td>39</td>
 				<td>39</td>
 				<td>39</td>
@@ -136,7 +144,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>Level 5</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-5">Level 5</a>
+				</td>
 				<td>18</td>
 				<td>18</td>
 				<td>18</td>
