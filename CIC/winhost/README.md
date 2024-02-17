@@ -365,6 +365,16 @@
 				<td>1000</td>
 				<td>0%</td>
 			</tr>
+			<tr>
+				<td>CPAS 2006 - Training</td>
+				<td>1</td>
+				<td>1</td>
+				<td>3</td>
+				<td>3</td>
+				<td>90</td>
+				<td>300</td>
+				<td>33.33%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
