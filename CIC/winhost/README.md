@@ -91,9 +91,9 @@
 # My progress
 
 <p>
-	To see my progress, click <a href="https://winhost.cic.pt/IP/ranking.aspx">here</a> and look for this user: <code>u8871</code>.
+	<code>To see my progress, click <a href="https://winhost.cic.pt/IP/ranking.aspx">here</a> and look for this user: u8871.</code>
 </p>
 
 # Which exercise am I doing?
 
-CPAS 2006 - Treino <code>=></code> CPAS2006-T2.
+<code>CPAS 2006 - Treino => CPAS2006-T2.</code>
