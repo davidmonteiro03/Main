@@ -165,6 +165,16 @@
 				<td>2350</td>
 				<td>100%</td>
 			</tr>
+			<tr>
+				<td>Extra</td>
+				<td>1</td>
+				<td>1</td>
+				<td>1</td>
+				<td>1</td>
+				<td>100</td>
+				<td>100</td>
+				<td>100%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
