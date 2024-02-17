@@ -322,7 +322,9 @@
 				<td>0%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2006 - Training</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2006-treino">CPAS 2006 - Training</a>
+				</td>
 				<td>1</td>
 				<td>1</td>
 				<td>3</td>
