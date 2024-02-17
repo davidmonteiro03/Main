@@ -1,8 +1,7 @@
 # Média de leite
 
 <p>
-	Create a program that writes «Ola Mundo».
-	<b>Note that the output must be exactly the same as that indicated in quotation marks.</b>
+	Knowing that each Portuguese person drinks an average of 92 liters of milk per year. Calculate the average per day. Consider that each year has 365 days.
 </p>
 
 ## Input:
@@ -11,4 +10,4 @@
 
 ## Output:
 
-<pre>Ola Mundo</pre>
+<pre>0.25</pre>
