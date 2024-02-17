@@ -8,5 +8,5 @@
     But... it requires commitment and the acquisition of specific skills that are developed through training!<br>
     Solve the exercises on this platform and, in the future, you'll be able to develop complex programs such as CODEin!<br>
     To use the platform, follow these steps:<br>
-     - ola
+    - Register using the «Inscrições\Do Colégio» function;
 </p>
