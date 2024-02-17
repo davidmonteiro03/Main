@@ -9,4 +9,4 @@
   Solve the exercises on this platform and, in the future, you'll be able to develop complex programs such as CODEin!<br>
   To use the platform, follow these steps:
 </p>
-- ola
+ - ola
