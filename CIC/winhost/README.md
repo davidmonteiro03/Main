@@ -213,7 +213,7 @@
 				<td>8</td>
 				<td>780</td>
 				<td>800</td>
-				<td>100%</td>
+				<td>87.5%</td>
 			</tr>
 		</tbody>
 	</table>
