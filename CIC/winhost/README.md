@@ -52,6 +52,18 @@
     Strings (string handling functions).
 </p>
 
+## Extra
+
+<p>
+    Just a few extra problems.
+</p>
+
+## Testing problems
+
+<p>
+    Problems that might come up in an assessment test.
+</p>
+
 ## CPAS Junior 2007, CPAS Junior 2008, ...
 
 <p>
@@ -68,18 +80,6 @@
 
 <p>
     Problems training for the CPAS 2006.
-</p>
-
-## Testing problems
-
-<p>
-    Problems that might come up in an assessment test.
-</p>
-
-## Extra
-
-<p>
-    Just a few extra problems.
 </p>
 
 # More detailed information
