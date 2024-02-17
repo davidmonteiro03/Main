@@ -93,7 +93,3 @@
 <p>
 	To see my progress, click <a href="https://winhost.cic.pt/IP/ranking.aspx">here</a> and look for this user: u8871.
 </p>
-
-# Which exercise am I doing?
-
-CPAS2006-T2 (CPAS 2006 - Treino)
