@@ -8,8 +8,8 @@
     But... it requires commitment and the acquisition of specific skills that are developed through training!<br>
     Solve the exercises on this platform and, in the future, you'll be able to develop complex programs such as CODEin!<br>
     To use the platform, follow these steps:<br>
-    - Register using the «Inscrições\Do Colégio» function;
-    - Log in to the platform with your (school) username and password;
-    - Find a problem and submit it «Concurso\Problemas»;
+    - Register using the «Inscrições\Do Colégio» function;<br>
+    - Log in to the platform with your (school) username and password;<br>
+    - Find a problem and submit it «Concurso\Problemas»;<br>
     - When you solve a problem correctly you are awarded points;
 </p>
