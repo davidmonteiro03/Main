@@ -1,6 +1,4 @@
-# Levels
-
-## Level 1
+# Level 1
 
 <p>
 	Sequential structures (input and output, elementary data types, assignments, calculation operators, mathematical functions and arithmetic expressions).
