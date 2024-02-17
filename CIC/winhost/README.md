@@ -27,3 +27,15 @@
 <p>
     Sequential structures (input and output, elementary data types, assignments, calculation operators, mathematical functions and arithmetic expressions).
 </p>
+
+## Level 2
+
+<p>
+    Conditional structures (relational and logical operators, if and case).
+</p>
+
+## Level 3
+
+<p>
+    Repetitive structures (for and while).
+</p>
