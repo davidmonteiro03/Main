@@ -69,3 +69,18 @@
 <p>
     To see more information, click <a href="https://winhost.cic.pt/IP/">here</a>.
 </p>
+
+# My progress
+
+<table>
+    <thead>
+        <tr>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
