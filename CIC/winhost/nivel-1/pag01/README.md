@@ -33,6 +33,13 @@
 				<td>yes</td>
 				<td>yes</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/04%20-%20%C3%81rea%20de%20um%20ret%C3%A2ngulo">Area of a rectangle</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
