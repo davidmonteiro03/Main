@@ -91,5 +91,5 @@
 # My progress
 
 <p>
-	To see my progress, click <a href="https://winhost.cic.pt/IP/ranking.aspx">here</a> and look for this user: <code>u8871 DM 12 IF 21 22</code>.
+	To see my progress, click <a href="https://winhost.cic.pt/IP/ranking.aspx">here</a> and look for this user: <code>u8871</code>.
 </p>
