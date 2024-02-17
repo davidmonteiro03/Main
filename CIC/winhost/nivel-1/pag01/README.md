@@ -47,6 +47,13 @@
 				<td>yes</td>
 				<td>yes</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/06%20-%20Convers%C3%A3o%20para%20euros">Conversion to euros</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
