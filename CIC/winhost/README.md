@@ -154,7 +154,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>Testing problems</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/problemas-de-testes">Testing problems</a>
+				</td>
 				<td>19</td>
 				<td>19</td>
 				<td>19</td>
@@ -162,7 +164,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>Extra</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/extra">Extra</a>
+				</td>
 				<td>1</td>
 				<td>1</td>
 				<td>1</td>
@@ -170,7 +174,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2007</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2007">CPAS Junior 2007</a>
+				</td>
 				<td>10</td>
 				<td>10</td>
 				<td>10</td>
@@ -178,7 +184,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2008</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2008">CPAS Junior 2008</a>
+				</td>
 				<td>10</td>
 				<td>9</td>
 				<td>10</td>
@@ -186,7 +194,9 @@
 				<td>90%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2009</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2009">CPAS Junior 2009</a>
+				</td>
 				<td>10</td>
 				<td>10</td>
 				<td>10</td>
@@ -194,7 +204,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2010</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2010">CPAS Junior 2010</a>
+				</td>
 				<td>7</td>
 				<td>7</td>
 				<td>8</td>
@@ -202,7 +214,9 @@
 				<td>87.5%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2012</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2012">CPAS Junior 2012</a>
+				</td>
 				<td>7</td>
 				<td>7</td>
 				<td>10</td>
@@ -210,7 +224,9 @@
 				<td>70%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2013</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2013">CPAS Junior 2013</a>
+				</td>
 				<td>7</td>
 				<td>7</td>
 				<td>9</td>
@@ -218,7 +234,9 @@
 				<td>77.77%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2014</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2014">CPAS Junior 2014</a>
+				</td>
 				<td>6</td>
 				<td>6</td>
 				<td>10</td>
@@ -226,7 +244,9 @@
 				<td>60%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2015</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2015">CPAS Junior 2015</a>
+				</td>
 				<td>7</td>
 				<td>7</td>
 				<td>10</td>
@@ -234,7 +254,9 @@
 				<td>70%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2016</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2016">CPAS Junior 2016</a>
+				</td>
 				<td>7</td>
 				<td>7</td>
 				<td>10</td>
@@ -242,7 +264,9 @@
 				<td>70%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2017</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2017">CPAS Junior 2017</a>
+				</td>
 				<td>10</td>
 				<td>10</td>
 				<td>10</td>
@@ -250,7 +274,9 @@
 				<td>100%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2018</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2018">CPAS Junior 2018</a>
+				</td>
 				<td>6</td>
 				<td>6</td>
 				<td>10</td>
@@ -258,7 +284,9 @@
 				<td>60%</td>
 			</tr>
 			<tr>
-				<td>CPAS Junior 2019</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2019">CPAS Junior 2019</a>
+				</td>
 				<td>7</td>
 				<td>7</td>
 				<td>12</td>
@@ -266,7 +294,9 @@
 				<td>58.33%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2005</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2005">CPAS 2005</a>
+				</td>
 				<td>8</td>
 				<td>8</td>
 				<td>10</td>
@@ -274,7 +304,9 @@
 				<td>80%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2006</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2006">CPAS 2006</a>
+				</td>
 				<td>6</td>
 				<td>6</td>
 				<td>10</td>
@@ -282,7 +314,9 @@
 				<td>60%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2007</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2007">CPAS 2007</a>
+				</td>
 				<td>8</td>
 				<td>7</td>
 				<td>10</td>
@@ -290,7 +324,9 @@
 				<td>70%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2008</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2008">CPAS 2008</a>
+				</td>
 				<td>5</td>
 				<td>5</td>
 				<td>10</td>
@@ -298,7 +334,9 @@
 				<td>50%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2009</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2009">CPAS 2009</a>
+				</td>
 				<td>4</td>
 				<td>4</td>
 				<td>10</td>
@@ -306,7 +344,9 @@
 				<td>40%</td>
 			</tr>
 			<tr>
-				<td>CPAS 2010</td>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2010">CPAS 2010</a>
+				</td>
 				<td>5</td>
 				<td>5</td>
 				<td>10</td>
