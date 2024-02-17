@@ -45,3 +45,21 @@
 <p>
     Arrays (vectors and matrices).
 </p>
+
+## Level 5
+
+<p>
+    Strings (string handling functions).
+</p>
+
+## CPAS Junior 2007, CPAS Junior 2008, ...
+
+<p>
+    CPAS Junior Competitions (10th grade level).
+</p>
+
+## CPAS2005, CPAS2006, ...
+
+<p>
+    CPAS competitions.
+</p>
