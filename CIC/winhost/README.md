@@ -90,7 +90,7 @@
 
 # My progress
 
-<table>
+<table style="text-align: center">
     <thead>
         <tr>
             <th>LEVEL</th>
