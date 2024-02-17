@@ -40,6 +40,13 @@
 				<td>yes</td>
 				<td>yes</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/05%20-%20Divide%202%20n%C3%BAmeros">Divide 2 numbers</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
