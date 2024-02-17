@@ -96,4 +96,4 @@
 
 # Which exercise am I doing?
 
-CPAS 2006 - Treino -> CPAS2006-T2.
+CPAS 2006 - Treino ⭢ CPAS2006-T2.
