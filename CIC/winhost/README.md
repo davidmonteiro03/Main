@@ -14,4 +14,8 @@
     - When you solve a problem correctly you are awarded points;<br>
     - Try to increase your ranking by solving as many problems as you can;<br>
     - The teacher will pay attention to your work.<br>
+    Attention:<br>
+    - CODEin-IP is for school students only;<br>
+    - Your entry must be approved by your teacher;<br>
+    - Only submit your solution after testing it, as incorrect submissions will be penalized.
 </p>
