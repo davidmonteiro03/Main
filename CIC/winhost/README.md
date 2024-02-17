@@ -233,7 +233,7 @@
 				<td>9</td>
 				<td>700</td>
 				<td>900</td>
-				<td>77%</td>
+				<td>77.77%</td>
 			</tr>
 		</tbody>
 	</table>
