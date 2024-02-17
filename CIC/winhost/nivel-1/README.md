@@ -1,0 +1,376 @@
+# Presentation
+
+## Platform to support the teaching of programming
+
+<p>
+	Use CODEin-IP to develop your programming skills.<br>
+	Programming is challenging and develops your logical thinking!<br>
+	But... it requires commitment and the acquisition of specific skills that are developed through training!<br>
+	Solve the exercises on this platform and, in the future, you'll be able to develop complex programs such as CODEin!<br>
+	To use the platform, follow these steps:<br>
+	- Register using the «Inscrições\Do Colégio» function;<br>
+	- Log in to the platform with your (school) username and password;<br>
+	- Find a problem and submit it «Concurso\Problemas»;<br>
+	- When you solve a problem correctly you are awarded points;<br>
+	- Try to increase your ranking by solving as many problems as you can;<br>
+	- The teacher will pay attention to your work.<br>
+	Attention:<br>
+	- CODEin-IP is for CIC students only (or ex-students, like me);<br>
+	- Your entry must be approved by your teacher;<br>
+	- Only submit your solution after testing it, as incorrect submissions will be penalized.
+</p>
+
+# Levels
+
+## Level 1
+
+<p>
+	Sequential structures (input and output, elementary data types, assignments, calculation operators, mathematical functions and arithmetic expressions).
+</p>
+
+## Level 2
+
+<p>
+	Conditional structures (relational and logical operators, if and case).
+</p>
+
+## Level 3
+
+<p>
+	Repetitive structures (for and while).
+</p>
+
+## Level 4
+
+<p>
+	Arrays (vectors and matrices).
+</p>
+
+## Level 5
+
+<p>
+	Strings (string handling functions).
+</p>
+
+## Testing problems
+
+<p>
+	Problems that might come up in an assessment test.
+</p>
+
+## Extra
+
+<p>
+	Just a few extra problems.
+</p>
+
+## CPAS Junior 2007, CPAS Junior 2008, ...
+
+<p>
+	CPAS Junior Competitions (10th grade level).
+</p>
+
+## CPAS2005, CPAS2006, ...
+
+<p>
+	CPAS competitions.
+</p>
+
+## CPAS 2006 - Training
+
+<p>
+	Problems training for the CPAS 2006.
+</p>
+
+# More detailed information
+
+<p>
+	To see more information, click <a href="https://winhost.cic.pt/IP/">here</a>.
+</p>
+
+# My progress
+
+<div align="center">
+	<table style="text-align: center">
+		<thead>
+			<tr>
+				<th>LEVEL</th>
+				<th>TRIED</th>
+				<th>SOLVED</th>
+				<th>EXERCISES TO SUBMIT</th>
+				<th>TOTAL OF EXERCISES</th>
+				<th>PROGRESS</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1">Level 1</a>
+				</td>
+				<td>44</td>
+				<td>44</td>
+				<td>44</td>
+				<td>45</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-2">Level 2</a>
+				</td>
+				<td>17</td>
+				<td>17</td>
+				<td>17</td>
+				<td>17</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-3">Level 3</a>
+				</td>
+				<td>20</td>
+				<td>20</td>
+				<td>20</td>
+				<td>20</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-4">Level 4</a>
+				</td>
+				<td>39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-5">Level 5</a>
+				</td>
+				<td>18</td>
+				<td>18</td>
+				<td>18</td>
+				<td>18</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/problemas-de-testes">Testing problems</a>
+				</td>
+				<td>19</td>
+				<td>19</td>
+				<td>19</td>
+				<td>19</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/extra">Extra</a>
+				</td>
+				<td>1</td>
+				<td>1</td>
+				<td>1</td>
+				<td>1</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2007">CPAS Junior 2007</a>
+				</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2008">CPAS Junior 2008</a>
+				</td>
+				<td>10</td>
+				<td>9</td>
+				<td>10</td>
+				<td>10</td>
+				<td>90%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2009">CPAS Junior 2009</a>
+				</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2010">CPAS Junior 2010</a>
+				</td>
+				<td>7</td>
+				<td>7</td>
+				<td>8</td>
+				<td>8</td>
+				<td>87.5%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2012">CPAS Junior 2012</a>
+				</td>
+				<td>7</td>
+				<td>7</td>
+				<td>10</td>
+				<td>10</td>
+				<td>70%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2013">CPAS Junior 2013</a>
+				</td>
+				<td>7</td>
+				<td>7</td>
+				<td>9</td>
+				<td>9</td>
+				<td>77.77%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2014">CPAS Junior 2014</a>
+				</td>
+				<td>6</td>
+				<td>6</td>
+				<td>10</td>
+				<td>10</td>
+				<td>60%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2015">CPAS Junior 2015</a>
+				</td>
+				<td>7</td>
+				<td>7</td>
+				<td>10</td>
+				<td>10</td>
+				<td>70%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2016">CPAS Junior 2016</a>
+				</td>
+				<td>7</td>
+				<td>7</td>
+				<td>10</td>
+				<td>10</td>
+				<td>70%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2017">CPAS Junior 2017</a>
+				</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2018">CPAS Junior 2018</a>
+				</td>
+				<td>6</td>
+				<td>6</td>
+				<td>10</td>
+				<td>10</td>
+				<td>60%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-junior-2019">CPAS Junior 2019</a>
+				</td>
+				<td>7</td>
+				<td>7</td>
+				<td>12</td>
+				<td>12</td>
+				<td>58.33%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2005">CPAS 2005</a>
+				</td>
+				<td>8</td>
+				<td>8</td>
+				<td>10</td>
+				<td>10</td>
+				<td>80%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2006">CPAS 2006</a>
+				</td>
+				<td>6</td>
+				<td>6</td>
+				<td>10</td>
+				<td>10</td>
+				<td>60%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2007">CPAS 2007</a>
+				</td>
+				<td>8</td>
+				<td>7</td>
+				<td>10</td>
+				<td>10</td>
+				<td>70%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2008">CPAS 2008</a>
+				</td>
+				<td>5</td>
+				<td>5</td>
+				<td>10</td>
+				<td>10</td>
+				<td>50%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2009">CPAS 2009</a>
+				</td>
+				<td>4</td>
+				<td>4</td>
+				<td>10</td>
+				<td>10</td>
+				<td>40%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2010">CPAS 2010</a>
+				</td>
+				<td>5</td>
+				<td>5</td>
+				<td>10</td>
+				<td>10</td>
+				<td>50%</td>
+			</tr>
+			<tr>
+				<td>CPAS 2011</td>
+				<td>0</td>
+				<td>0</td>
+				<td>10</td>
+				<td>10</td>
+				<td>0%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/cpas-2006-treino">CPAS 2006 - Training</a>
+				</td>
+				<td>1</td>
+				<td>1</td>
+				<td>3</td>
+				<td>3</td>
+				<td>33.33%</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
