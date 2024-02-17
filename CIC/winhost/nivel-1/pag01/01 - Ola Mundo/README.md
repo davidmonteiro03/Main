@@ -1,6 +1,6 @@
 # Ola Mundo
 
 <p>
-	Elabore um programa que escreva «Ola Mundo».
-	<b>Tenha em atenção que a saída deve ser exatamente igual à indicada entre aspas.</b>
+	Create a program that writes «Ola Mundo».
+	<b>Note that the output must be exactly the same as that indicated in quotation marks.</b>
 </p>
