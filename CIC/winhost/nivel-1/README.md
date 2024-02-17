@@ -29,6 +29,46 @@
 				<td>10</td>
 				<td>100%</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag02">Page 2</a>
+				</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag03">Page 3</a>
+				</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag04">Page 4</a>
+				</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>10</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag05">Page 5</a>
+				</td>
+				<td>4</td>
+				<td>4</td>
+				<td>4</td>
+				<td>5</td>
+				<td>100%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
