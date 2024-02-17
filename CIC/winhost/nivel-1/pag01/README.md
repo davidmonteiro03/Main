@@ -75,6 +75,13 @@
 				<td>yes</td>
 				<td>yes</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/10%20-%20For%C3%A7a">Strength</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
