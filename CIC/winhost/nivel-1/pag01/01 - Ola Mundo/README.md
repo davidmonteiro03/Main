@@ -8,3 +8,7 @@
 ## Input:
 
 <pre>There is no input</pre>
+
+## Output:
+
+<pre>Ola Mundo</pre>
