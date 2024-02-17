@@ -1,10 +1,10 @@
 # CODEin-IP
 
-## Plataforma de apoio ao ensino da programação
+## Platform to support the teaching of programming
 
 <p>
-  Utiliza o CODEin-IP para desenvolveres as tuas capacidades de programação.<br>
-  Programar é desafiante e desenvolve o teu raciocínio lógico!<br>
-  Mas... exige empenho e obriga à aquisição de competências específicas que se desenvolvem com treino!<br>
-  Resolve os exercícios desta plataforma, e, no futuro, serás capaz de desenvolver programas complexos como, por exemplo, o CODEin!<br>
+  Use CODEin-IP to develop your programming skills.<br>
+  Programming is challenging and develops your logical thinking!<br>
+  But... it requires commitment and the acquisition of specific skills that are developed through training!<br>
+  Solve the exercises on this platform and, in the future, you'll be able to develop complex programs such as CODEin!
 </p>
