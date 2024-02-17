@@ -155,6 +155,16 @@
 				<td>2500</td>
 				<td>100%</td>
 			</tr>
+			<tr>
+				<td>Testing problems</td>
+				<td>19</td>
+				<td>19</td>
+				<td>19</td>
+				<td>19</td>
+				<td>2310</td>
+				<td>2350</td>
+				<td>100%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
