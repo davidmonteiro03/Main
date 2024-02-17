@@ -99,8 +99,6 @@
 				<th>SOLVED</th>
 				<th>EXERCISES TO SUBMIT</th>
 				<th>TOTAL OF EXERCISES</th>
-				<th>EARNED POINTS</th>
-				<th>TOTAL OF POSSIBLE POINTS</th>
 				<th>PROGRESS</th>
 			</tr>
 		</thead>
@@ -111,8 +109,6 @@
 				<td>44</td>
 				<td>44</td>
 				<td>45</td>
-				<td>4590</td>
-				<td>4600</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -121,8 +117,6 @@
 				<td>17</td>
 				<td>17</td>
 				<td>17</td>
-				<td>1900</td>
-				<td>1900</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -131,8 +125,6 @@
 				<td>20</td>
 				<td>20</td>
 				<td>20</td>
-				<td>2480</td>
-				<td>2500</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -141,8 +133,6 @@
 				<td>39</td>
 				<td>39</td>
 				<td>39</td>
-				<td>6700</td>
-				<td>6700</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -151,8 +141,6 @@
 				<td>18</td>
 				<td>18</td>
 				<td>18</td>
-				<td>2500</td>
-				<td>2500</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -161,8 +149,6 @@
 				<td>19</td>
 				<td>19</td>
 				<td>19</td>
-				<td>2310</td>
-				<td>2350</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -171,8 +157,6 @@
 				<td>1</td>
 				<td>1</td>
 				<td>1</td>
-				<td>100</td>
-				<td>100</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -181,8 +165,6 @@
 				<td>10</td>
 				<td>10</td>
 				<td>10</td>
-				<td>1000</td>
-				<td>1000</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -191,8 +173,6 @@
 				<td>9</td>
 				<td>10</td>
 				<td>10</td>
-				<td>800</td>
-				<td>1000</td>
 				<td>90%</td>
 			</tr>
 			<tr>
@@ -201,8 +181,6 @@
 				<td>10</td>
 				<td>10</td>
 				<td>10</td>
-				<td>1000</td>
-				<td>1000</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -211,8 +189,6 @@
 				<td>7</td>
 				<td>8</td>
 				<td>8</td>
-				<td>680</td>
-				<td>800</td>
 				<td>87.5%</td>
 			</tr>
 			<tr>
@@ -221,8 +197,6 @@
 				<td>7</td>
 				<td>10</td>
 				<td>10</td>
-				<td>700</td>
-				<td>1000</td>
 				<td>70%</td>
 			</tr>
 			<tr>
@@ -231,8 +205,6 @@
 				<td>7</td>
 				<td>9</td>
 				<td>9</td>
-				<td>700</td>
-				<td>900</td>
 				<td>77.77%</td>
 			</tr>
 			<tr>
@@ -241,8 +213,6 @@
 				<td>6</td>
 				<td>10</td>
 				<td>10</td>
-				<td>600</td>
-				<td>1000</td>
 				<td>60%</td>
 			</tr>
 			<tr>
@@ -251,8 +221,6 @@
 				<td>7</td>
 				<td>10</td>
 				<td>10</td>
-				<td>690</td>
-				<td>1000</td>
 				<td>70%</td>
 			</tr>
 			<tr>
@@ -261,8 +229,6 @@
 				<td>7</td>
 				<td>10</td>
 				<td>10</td>
-				<td>700</td>
-				<td>1000</td>
 				<td>70%</td>
 			</tr>
 			<tr>
@@ -271,8 +237,6 @@
 				<td>10</td>
 				<td>10</td>
 				<td>10</td>
-				<td>950</td>
-				<td>1000</td>
 				<td>100%</td>
 			</tr>
 			<tr>
@@ -281,8 +245,6 @@
 				<td>6</td>
 				<td>10</td>
 				<td>10</td>
-				<td>600</td>
-				<td>1000</td>
 				<td>60%</td>
 			</tr>
 			<tr>
@@ -291,8 +253,6 @@
 				<td>7</td>
 				<td>12</td>
 				<td>12</td>
-				<td>2200</td>
-				<td>2700</td>
 				<td>58.33%</td>
 			</tr>
 			<tr>
@@ -301,8 +261,6 @@
 				<td>8</td>
 				<td>10</td>
 				<td>10</td>
-				<td>800</td>
-				<td>1000</td>
 				<td>80%</td>
 			</tr>
 			<tr>
@@ -311,8 +269,6 @@
 				<td>6</td>
 				<td>10</td>
 				<td>10</td>
-				<td>600</td>
-				<td>1000</td>
 				<td>60%</td>
 			</tr>
 			<tr>
@@ -321,8 +277,6 @@
 				<td>7</td>
 				<td>10</td>
 				<td>10</td>
-				<td>680</td>
-				<td>1000</td>
 				<td>70%</td>
 			</tr>
 			<tr>
@@ -331,8 +285,6 @@
 				<td>5</td>
 				<td>10</td>
 				<td>10</td>
-				<td>500</td>
-				<td>1000</td>
 				<td>50%</td>
 			</tr>
 			<tr>
@@ -341,8 +293,6 @@
 				<td>4</td>
 				<td>10</td>
 				<td>10</td>
-				<td>400</td>
-				<td>1000</td>
 				<td>40%</td>
 			</tr>
 			<tr>
@@ -351,8 +301,6 @@
 				<td>5</td>
 				<td>10</td>
 				<td>10</td>
-				<td>500</td>
-				<td>1000</td>
 				<td>50%</td>
 			</tr>
 			<tr>
@@ -361,8 +309,6 @@
 				<td>0</td>
 				<td>10</td>
 				<td>10</td>
-				<td>0</td>
-				<td>1000</td>
 				<td>0%</td>
 			</tr>
 			<tr>
@@ -371,8 +317,6 @@
 				<td>1</td>
 				<td>3</td>
 				<td>3</td>
-				<td>90</td>
-				<td>300</td>
 				<td>33.33%</td>
 			</tr>
 		</tbody>
