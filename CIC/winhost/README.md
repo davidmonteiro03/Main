@@ -63,3 +63,9 @@
 <p>
     CPAS competitions.
 </p>
+
+# More detailed information
+
+<p>
+    To see more information, click <a href="https://winhost.cic.pt/IP/">here</a>.
+</p>
