@@ -11,5 +11,7 @@
     - Register using the «Inscrições\Do Colégio» function;<br>
     - Log in to the platform with your (school) username and password;<br>
     - Find a problem and submit it «Concurso\Problemas»;<br>
-    - When you solve a problem correctly you are awarded points;
+    - When you solve a problem correctly you are awarded points;<br>
+    - Try to increase your ranking by solving as many problems as you can;<br>
+    - The teacher will pay attention to your work.<br>
 </p>
