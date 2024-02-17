@@ -68,6 +68,13 @@
 				<td>yes</td>
 				<td>yes</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/09%20-%20M%C3%A9dia%20de%20idades%20da%20fam%C3%ADlia">Average age of the family</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
