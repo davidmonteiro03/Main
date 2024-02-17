@@ -9,8 +9,6 @@
 				<th>EXERCISE</th>
 				<th>TRIED</th>
 				<th>SOLVED</th>
-				<th>EARNED POINTS</th>
-				<th>TOTAL OF POINTS</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -20,8 +18,6 @@
 				</td>
 				<td>yes</td>
 				<td>yes</td>
-				<td>100</td>
-				<td>100</td>
 			</tr>
 			<tr>
 				<td>
@@ -29,8 +25,13 @@
 				</td>
 				<td>yes</td>
 				<td>yes</td>
-				<td>100</td>
-				<td>100</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/davidmonteiro03/Main/tree/main/CIC/winhost/nivel-1/pag01/03%20-%20Altura%20de%20cada%20degrau">Height of each step</a>
+				</td>
+				<td>yes</td>
+				<td>yes</td>
 			</tr>
 		</tbody>
 	</table>
