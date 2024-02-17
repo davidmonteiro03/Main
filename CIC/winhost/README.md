@@ -105,14 +105,15 @@
 			</tr>
 			<tr>
 				<td>Level 2</td>
-				<td>44/44</td>
+				<td>17/17</td>
 			</tr>
 			<tr>
 				<td>Level 3</td>
-				<td>44/44</td>
+				<td>20/20</td>
 			</tr>
 			<tr>
 				<td>Level 4</td>
+				<td>39/39</td>
 			</tr>
 			<tr>
 				<td>Level 5</td>
