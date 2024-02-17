@@ -135,6 +135,16 @@
 				<td>2500</td>
 				<td>100%</td>
 			</tr>
+			<tr>
+				<td>Level 4</td>
+				<td>39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>39</td>
+				<td>6700</td>
+				<td>6700</td>
+				<td>100%</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
