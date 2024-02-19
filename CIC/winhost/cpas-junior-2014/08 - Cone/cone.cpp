@@ -6,13 +6,12 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 11:36:21 by dcaetano          #+#    #+#             */
-/*   Updated: 2024/02/19 14:37:47 by dcaetano         ###   ########.fr       */
+/*   Updated: 2024/02/19 14:39:58 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <stdio.h>
-#include <vector>
 
 int get_length(int num, int n)
 {
