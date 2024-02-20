@@ -6,11 +6,16 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/20 11:50:57 by dcaetano          #+#    #+#             */
-/*   Updated: 2024/02/20 11:56:57 by dcaetano         ###   ########.fr       */
+/*   Updated: 2024/02/20 11:58:04 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+
+size_t get_pos(std::string str, char c)
+{
+	size_t i = 0;
+}
 
 int main(void)
 {
