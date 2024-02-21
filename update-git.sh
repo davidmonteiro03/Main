@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-python3 index.py
+python3 api.py
 str="$*"
 if [ -z "$str" ]; then
 	str="git updates"
