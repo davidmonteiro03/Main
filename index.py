@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 
 url_table = 'https://desporto.sapo.pt/futebol/competicao/primeira-liga-2/classificacao'
-response = requests.get(url_table)
-soup = BeautifulSoup(response.text, 'html.parser')
-target_class = "[ ink-table medium bottom-space ] rankings-table"
-tables = soup.find_all('table', class_=target_class)
+response_table = requests.get(url_table)
+soup_table = BeautifulSoup(response_table.text, 'html.parser')
+target_table = "[ ink-table medium bottom-space ] rankings-table"
+tables = soup_table.find_all('table', class_=target_table)
 f_table = open('league_table', 'w')
 for table in tables:
 	rows = table.find_all('tr')
@@ -16,4 +16,9 @@ for table in tables:
 		if (len(cells) > 0):
 			f_table.write("\n")
 f_table.close()
-response.close() 
+response_table.close() 
+url_calendar = 'https://desporto.sapo.pt/futebol/competicao/primeira-liga-2/calendario'
+response_calendar = requests.get(url_calendar)
+soup_calendar = BeautifulSoup(response_calendar.text, 'html.parser')
+print(soup_calendar.text)
+response_calendar.close()
