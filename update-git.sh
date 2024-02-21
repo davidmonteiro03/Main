@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+python3 index.py > league_table
 str="$*"
 if [ -z "$str" ]; then
 	str="git updates"
