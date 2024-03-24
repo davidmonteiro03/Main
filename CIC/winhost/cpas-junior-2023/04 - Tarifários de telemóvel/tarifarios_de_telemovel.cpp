@@ -6,13 +6,12 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 16:24:05 by dcaetano          #+#    #+#             */
-/*   Updated: 2024/03/24 17:14:15 by dcaetano         ###   ########.fr       */
+/*   Updated: 2024/03/24 17:18:59 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 class Data
 {
@@ -23,10 +22,7 @@ class Data
 	public:
 		Data(std::string name);
 		~Data();
-		std::string get_name(void) const;
-		std::vector<int> get_costs(void) const;
 		std::pair<std::string, int> get_info(void) const;
-		int get_callcost(void) const;
 		bool get_flag(void) const;
 		void update(int weekday, int minutes);
 };
@@ -47,15 +43,13 @@ Data::Data(std::string name) : \
 			_flag = false;
 }
 
-Data::~Data() {}
-
-std::string Data::get_name(void) const { return _info.first; }
-
-std::vector<int> Data::get_costs(void) const { return _costs; }
+Data::~Data()
+{
+	_costs.clear();
+	_flag = false;
+}
 
 std::pair<std::string, int> Data::get_info(void) const { return _info; }
-
-int Data::get_callcost(void) const { return _info.second; }
 
 bool Data::get_flag(void) const { return _flag; }
 
