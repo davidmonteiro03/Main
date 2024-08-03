@@ -5,75 +5,60 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/20 21:36:07 by dcaetano          #+#    #+#             */
-/*   Updated: 2024/05/20 21:51:56 by dcaetano         ###   ########.fr       */
+/*   Created: 2024/08/03 09:55:38 by dcaetano          #+#    #+#             */
+/*   Updated: 2024/08/03 10:35:00 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+#include <stdio.h>
+#include <string.h>
+#include <string>
 #include <vector>
 
-typedef std::string t_string;
-typedef std::vector<t_string> t_text;
-typedef std::vector<t_string> t_args;
-
-t_args ft_split(t_string str)
+static void	handle_word(std::string const word)
 {
-	t_args ret;
-	size_t i = 0, start, end;
-	while (str[i] != '\0')
+	if (strchr(word.c_str(), '@') != NULL) std::cout << word;
+	else
 	{
-		while (str[i] != '\0' && std::isspace(str[i]))
-			i++;
-		start = i;
-		while (str[i] != '\0' && !std::isspace(str[i]))
-			i++;
-		end = i;
-		if (end > start)
-			ret.push_back(str.substr(start, end - start));
-		while (str[i] != '\0' && std::isspace(str[i]))
-			i++;
+		for (size_t i = 0; i < word.size(); ++i)
+		{
+			if (std::tolower(word[i]) == 'r') continue ;
+			if (word[i] == 'l') std::cout << 'u';
+			else if (word[i] == 'L') std::cout << 'U';
+			else std::cout << word[i];
+		}
 	}
-	return (ret);
 }
 
-void ft_dialet(t_string line)
+static void	print_line(std::string const line)
 {
-	size_t i = 0, start, end;
-	while (line[i] != '\0')
+	size_t k;
+	for (size_t i = 0; i < line.size();)
 	{
-		while (line[i] != '\0' && std::isspace(line[i]))
-			std::cout << line[i++];
-		start = i;
-		while (line[i] != '\0' && !std::isspace(line[i]))
-			i++;
-		end = i;
-		if (end > start)
-			;
-		while (line[i] != '\0' && std::isspace(line[i]))
-			std::cout << line[i++];
+		for (; i < line.size() && std::isspace(line[i]) != 0; ++i)
+			std::cout << line[i];
+		k = i;
+		for (; i < line.size() && std::isspace(line[i]) == 0; ++i);
+		if (i > k)
+			handle_word(line.substr(k, i - k));
+		for (; i < line.size() && std::isspace(line[i]) != 0; ++i)
+			std::cout << line[i];
 	}
 	std::cout << std::endl;
 }
 
-int main(void)
+int	main(void)
 {
-	t_text text;
-	t_string line;
-	do
+	char tmp[201];
+	std::vector<std::string> text;
+	scanf(" %[^\n]s", tmp);
+	while (strcmp(tmp, "#") != 0)
 	{
-		char *tmp = (char *)malloc(sizeof(char) * 200);
-		if (tmp != NULL)
-		{
-			scanf(" %[^\n]s", tmp);
-			line = tmp;
-			free(tmp);
-			if (line != "#")
-				text.push_back(line);
-		}
-	} while (line != "#");
-	t_text::iterator i;
-	for (i = text.begin(); i != text.end(); i++)
-		ft_dialet(*i);
+		text.push_back(tmp);
+		scanf(" %[^\n]s", tmp);
+	}
+	for (size_t i = 0; i < text.size(); ++i) print_line(text[i]);
+	text.clear();
 	return (0);
 }
