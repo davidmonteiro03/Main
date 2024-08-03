@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/03 10:36:12 by dcaetano          #+#    #+#             */
-/*   Updated: 2024/08/03 12:04:19 by dcaetano         ###   ########.fr       */
+/*   Updated: 2024/08/03 12:17:18 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,18 +54,19 @@ Station::Station(char tmp[51])
 	size_t i = 0;
 	for (; i < str.size() && str[i] != '#'; ++i)
 		_name.append(1, str[i]);
-	for (; i < str.size() && str[i] == '#'; ++i) ;
+	for (; i < str.size() && str[i] == '#'; ++i)
+		;
 	std::string hours;
 	for (; i < str.size() && hours.size() < 2; ++i)
 		hours.append(1, str[i]);
-	 _time.first = atoi(hours.c_str());
+	_time.first = atoi(hours.c_str());
 	std::string minutes;
 	for (; i < str.size() && minutes.size() < 2; ++i)
 		minutes.append(1, str[i]);
 	_time.second = atoi(minutes.c_str());
 }
 
-Station::~Station() {}
+Station::~Station() { _name.clear(); }
 
 std::string const Station::get_name(void) const { return _name; }
 
@@ -86,7 +87,11 @@ Route::Route(char tmp[51])
 	}
 }
 
-Route::~Route() {}
+Route::~Route()
+{
+	_stations.clear();
+	_name.clear();
+}
 
 void Route::handle_difference(Station a, Station b)
 {
